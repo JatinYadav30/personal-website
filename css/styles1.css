@@ -8,6 +8,15 @@
   padding: 0;
 }
 
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+
 .navigationbar {
   display: flex;
   align-items: center;
@@ -17,6 +26,7 @@
   margin-top: 9px;
   padding: 0 25px;
   background-color: black;
+ 
 }
 
 /*///////////////////////////////navigation pane name/////////////////////////*/
@@ -56,14 +66,16 @@
 
 .items {
   text-decoration: none;
-  color: white;
+  background-image: linear-gradient(90deg, red, purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   font-family: "Bebas Neue";
-  font-size: 29px;
+  font-size: 34px;
   letter-spacing: 1px;
 }
 
 .items:hover {
-  color: orange;
   font-size: 34px;
   border-bottom: 5px solid white;
   transition: 0.2s ease-in-out;
