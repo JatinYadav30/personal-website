@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   
 }
 
@@ -38,7 +38,6 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: ;
 }
 
 .introname span:nth-child(1) {
@@ -87,6 +86,75 @@ main{
 .intropara span {
   font-family: "Staatliches", cursive;
   color: rgb(255, 0, 0);
+}
+
+.mebox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.photobox{
+  position: absolute;
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.photobox::before{
+  content: '';
+  position: absolute;
+  inset: 5px 85px;
+  background: linear-gradient(#00ccff, #d500f9);
+  width: 100px;
+  height: 61vh;
+  animation: animate 4s linear infinite;
+  transition: 0.5s;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.photobox:hover::before{
+  inset: -20px 0px;
+}
+
+
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.photobox::after{
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border-radius: 16px;
+  background:black;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.content{
+  position: absolute;
+  inset: 30px;
+  border: 6px solid black;
+  z-index: 3;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.content img{
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 .system {
@@ -159,7 +227,7 @@ main{
   padding: 2rem;
   border-radius: 11px;
   width: 650px;
-  height: 30vh;
+  height: 31.1vh;
   display: flex;
   justify-content: center;
 }
@@ -207,6 +275,8 @@ main{
   width: 1000px;
 }
 
+
+
 .socials {
   width: fit-content;
   border-radius: 17px;
@@ -240,7 +310,8 @@ main{
 .boxcontactme {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
+  
 }
 .socials ul li a {
   text-decoration: none;

@@ -33,23 +33,6 @@
   color: white;
 }
 
-.navname:hover span {
-  font-size: 43px;
-  padding: 5px;
-  font-family: "Quantico", sans-serif;
-  color: orange;
-}
-
-.navname span {
-  transition: 0.5s ease-in-out;
-}
-
-.navname:hover {
-  color: white;
-  text-shadow: 0 0 10px hsl(0, 0%, 65%), 0 0 30px hsl(0, 0%, 65%),
-    0 0 35px hsl(0, 0%, 65%);
-}
-
 /*///////////////////////////////Nav Items/////////////////////////*/
 
 .navitems {
