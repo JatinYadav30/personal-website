@@ -288,10 +288,10 @@ main {
 
 .contactmepage {
   background-image: url(/img/Colorbox\ 3\ -\ Copy@1-1522x827.png);
-  padding: 1.6rem;
+  padding: 1rem;
   background-size: cover;
   border-radius: 17px;
-  margin: 25px;
+  margin: 10px;
   height: fit-content;
   background-position: center;
   display: flex;
@@ -355,6 +355,13 @@ main {
   justify-content: center;
   padding: 11px 11px;
 }
+
+.fueler img{
+  width: 255px;
+  height: 55px;
+  margin-bottom: 5px;
+}
+
 
 .mailform {
   padding: 40px 40px;
