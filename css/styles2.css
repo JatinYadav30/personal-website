@@ -162,22 +162,42 @@ main {
   flex-direction: column;
 }
 
+.description p{
+  background-image: linear-gradient(90deg, purple, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: 'Staatliches', cursive;
+  list-style: none;
+  letter-spacing: 1px;
+  font-size: 40px;
+  padding-bottom: 13px;
+  text-decoration: underline;
+}
+
+.description ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .description ul li {
   color: #7bdcb5;
   font-family: "Fjalla One", sans-serif;
   list-style: none;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 3px;
 }
 .description ul li span1 {
   font-size: 31px;
   color: red;
 }
-.description ul li span2 {
-  clip-path: polygon(50% 10%, 10% 10%, 10% 100%, 10% 80%);
-  transform: translate(-2%, 1%) rotateZ(1deg);
+
+.description ul li span3 {
+  font-size: 35px;
 }
+
 .description ul li img {
   width: 13px;
   height: 13px;
