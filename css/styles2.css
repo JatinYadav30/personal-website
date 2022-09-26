@@ -83,6 +83,29 @@ main {
   padding: 10px 10px;
 }
 
+@media all and (max-width:500px){
+  
+  .introbody{
+    width: 320px;
+  }
+  .introname span:nth-child(1){
+    font-size: 110px;
+  }
+  .introname span:nth-child(2){
+    font-size: 90px;
+  }
+  
+  .intropara{
+    font-size: 33px;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .introbox{
+    flex-direction: column;
+    padding: 1px 1px;
+  }
+}
+
 .intropara span {
   font-family: "Staatliches", cursive;
   color: rgb(255, 0, 0);
@@ -382,74 +405,15 @@ main {
   margin-bottom: 5px;
 }
 
+@media all and (max-width:500px){
 
-.mailform {
-  padding: 40px 40px;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(98px);
-  border-radius: 38px;
+  
 }
 
-.mailform h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 15px;
-  margin-bottom: 19px;
-  font-family: "Amatic SC", cursive;
-  font-size: 49px;
-}
 
-.helpme input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: transparent;
-  margin: 10px 0;
-  width: 100%;
-  height: 4vh;
-  border-radius: 100px;
-  text-align: center;
-  font-family: "Bebas Neue", cursive;
-  font-size: 22px;
-  color: white;
-  letter-spacing: 2px;
-  border: 1px solid white;
-  padding: 2px 0px;
-}
 
-.field {
-  width: 100%;
-  height: 13vh;
-  border-radius: 17px;
-  text-align: center;
-  font-size: 19px;
-  font-family: "Pacifico", cursive;
-}
 
-.helpme textarea {
-  border: 2px solid black;
-}
 
-.helpme button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-  border-radius: 17px;
-  padding: 5px;
-  font-family: "Bebas Neue", cursive;
-  background-color: rgba(59, 74, 108, 0.5);
-  backdrop-filter: blur(98px);
-}
-.helpme button:hover {
-  font-size: 26px;
-}
-.helpme {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-}
+
+
+
